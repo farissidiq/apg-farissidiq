@@ -3,35 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>dashboard</title>
+    <title>login</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header>Aplikasi Manajemen Pegawai</header>
     <div class="container">
-      <aside>
-        <ul class="menu">
-          <li>
-            <a href="dashboard.html" class="aktif">dashboard</a>
-          </li>
-          <li>
-            <a href="tabel.html">data Pegawai</a>
-          </li>
-          <li>
-            <a href="tabel.html">Data Jabatan</a>
-          </li>
-          <li>
-            <a href="login.html">Keluar</a>
-          </li>
-        </ul>
-      </aside>
-      <section class="main">
-        <h1>Selamnat Datang di Aplikasi Manajemen Pegawai</h1>
-        <h3>Anda Login sebagai administrasi</h3>
+      <section class="login-box">
+        <h2>Login Box</h2>
+        <form action="cek login" method="post">
+          <input type="text" name="username" placeholder="username" />
+          <input type="password" name="password" placeholder="password" />
+          <input type="submit" value="login" />
+        </form>
       </section>
     </div>
-    <footer>
-      Made width<span style="color: red">❤</span> by <b>ada</b>in madiun
-    </footer>
   </body>
 </html>
